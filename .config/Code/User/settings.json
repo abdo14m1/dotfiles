@@ -1,0 +1,26 @@
+{
+    "editor.fontFamily": "MesloLGS NF Bold",
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily"
+    ],
+    "redhat.telemetry.enabled": false,
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path-linux": "/root/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+        "vscode-kubernetes.minikube-path-linux": "/root/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.fontLigatures": false,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "workbench.iconTheme": "material-icon-theme",
+    "remote.SSH.defaultExtensions": [
+        "gitpod.gitpod-remote-ssh"
+    ],
+    "cmake.showOptionsMovedNotification": false,
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "git.autofetch": true,
+    "workbench.colorTheme": "Shades of Purple",
+    "workbench.startupEditor": "none"
+}
