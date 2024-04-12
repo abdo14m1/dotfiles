@@ -1,4 +1,3 @@
-compinit -d $HOME/.cache/zsh/.zcompdump-$HOST
 # to show specs on terminal startup  
  neofetch
 # to supress isntant prompt error
@@ -117,6 +116,7 @@ alias ls="lsd -lh"
 alias fzf='fzf --preview "bat --color=always --style=numbers --line-range=:500 {}"'
 alias src="source ~/.zshrc"
 alias p="cd projects"
+alias hdd="cd '/media/farag/My space/'"
 #alias cat=bat
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
