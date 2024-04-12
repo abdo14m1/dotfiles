@@ -22,5 +22,9 @@
     "editor.minimap.enabled": false,
     "git.autofetch": true,
     "workbench.colorTheme": "Shades of Purple",
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "workbench.activityBar.location": "top",
+    "workbench.sideBar.location": "right",
+    "window.customTitleBarVisibility": "auto",
+    "window.menuBarVisibility": "toggle"
 }
