@@ -5,8 +5,9 @@
     ],
     "redhat.telemetry.enabled": false,
     "vs-kubernetes": {
-        "vscode-kubernetes.helm-path-linux": "/root/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
-        "vscode-kubernetes.minikube-path-linux": "/root/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube"
+        "vscode-kubernetes.helm-path-linux": "/home/farag/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+        "vscode-kubernetes.minikube-path-linux": "/root/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+        "vscode-kubernetes.kubectl-path-linux": "/home/farag/.local/state/vs-kubernetes/tools/kubectl/kubectl"
     },
     "security.workspace.trust.untrustedFiles": "open",
     "editor.inlineSuggest.suppressSuggestions": true,
@@ -18,13 +19,42 @@
         "gitpod.gitpod-remote-ssh"
     ],
     "cmake.showOptionsMovedNotification": false,
-    "breadcrumbs.enabled": false,
     "editor.minimap.enabled": false,
     "git.autofetch": true,
-    "workbench.colorTheme": "Shades of Purple",
+    "workbench.colorTheme": "Visual Studio Dark - C++",
     "workbench.startupEditor": "none",
     "workbench.activityBar.location": "top",
     "workbench.sideBar.location": "right",
     "window.customTitleBarVisibility": "auto",
-    "window.menuBarVisibility": "toggle"
+    "window.menuBarVisibility": "toggle",
+    "settingsSync.ignoredExtensions": [
+        "sourcegraph.cody-ai"
+    ],
+    "indentRainbow.colors": [
+        "rgba(255,255,64,0.07)",
+        "rgba(127,255,127,0.07)",
+        "rgba(255,127,255,0.07)",
+        "rgba(79,236,236,0.07)"
+    ],
+    "indentRainbow.excludedLanguages": [
+        "plaintext"
+    ],
+    "indentRainbow.ignoreErrorLanguages": [
+        "*",
+        "markdown"
+    ],
+    "editor.formatOnSave": true,
+    "[github-actions-workflow]": {},
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "terminal.integrated.mouseWheelZoom": true,
+    "terminal.integrated.middleClickBehavior": "paste",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "security.workspace.trust.startupPrompt": "never",
+    "security.workspace.trust.enabled": false,
+    "editor.lineNumbers": "relative",
+    "terminal.integrated.fontSize": 16,
+    "files.associations": {
+        "jenkinsfile": "groovy"
+    }
 }

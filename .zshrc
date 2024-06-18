@@ -82,7 +82,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 	#plugins=(zsh-autosuggestions zsh-syntax-highlighting sudo colored-man-pages zsh-autocomplete)
-plugins=(zsh-autosuggestions zsh-syntax-highlighting sudo colored-man-pages )
+plugins=(zsh-autosuggestions zsh-syntax-highlighting sudo colored-man-pages terraform )
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -112,13 +112,17 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias st="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -"
 alias ll="lsd -lah"
-alias ls="lsd -lh"
+#alias ls="lsd -h"
 alias fzf='fzf --preview "bat --color=always --style=numbers --line-range=:500 {}"'
 alias src="source ~/.zshrc"
 alias p="cd projects"
 alias hdd="cd '/media/farag/My space/'"
+alias python=python3
 #alias cat=bat
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 fpath+=${ZDOTDIR:-~}/.zsh_functions
 
+
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/bin/terraform terraform
